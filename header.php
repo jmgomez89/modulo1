@@ -12,7 +12,7 @@
   <?php 
 
         //cursos
-        const   CURSO = 'Cursos - Ciclo Lectivo 2022';
+        const   CICLO = 'TRABAJO PRÁCTICO FINAL';
 
         $phpIni = 'PHP y MySQL Inicial';
         $phpInter = 'PHP y MySQL Intermedio';
@@ -32,15 +32,15 @@
 
   <nav class="navbar navbar-expand-lg ">
         <div class="container-fluid">
-            <a class="navbar-brand" href="index.php"><?php echo CURSO ?> </a>
+            <a class="navbar-brand" href="index.php"><?php echo CICLO ?> </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                    <a class="nav-link active" aria-current="page" href="curso.php?curso=inicial"><?php echo $phpIni ?></a>
-                    <a class="nav-link active" href="curso.php?curso=intermedio"><?php echo $phpInter ?></a>
-                    <a class="nav-link active" href="curso.php?curso=avanzado"><?php echo $phpAvan ?></a>
+                    <a class="nav-link active" aria-current="page" href=#>Redes</a>
+                    <a class="nav-link active" href=#>Sobre Mi</a>
+                    <a class="nav-link active" href="contacto.php">Contacto</a>
                 </div>
             </div>
         </div>

@@ -9,14 +9,6 @@ nav {
     
 }
 
-.first-section {
-    height: 125vh;
-    width: 100%;    
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
 .cards-container {
     display: flex;
     justify-content: space-around;
@@ -71,7 +63,7 @@ nav {
 .curso-container {
     background-color: transparent;
     width: 60%;
-    height: 80%;
+    height: 60%;
     margin: auto;
     display: flex;
     align-items: center;
@@ -87,7 +79,7 @@ nav {
 }
 
 .curso img {
-    width: 80%;
+    width: 70%;
     height: 55%;
     display: block;
     margin: 0 auto;
@@ -106,6 +98,11 @@ footer {
 footer p {
     text-align: center;
     color: white;
+}
+
+.formulario-contacto {
+    margin: 0 auto;
+    height: 100%;
 }
 
 @media (max-width: 1090px) {

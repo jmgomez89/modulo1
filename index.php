@@ -1,9 +1,7 @@
 <?php include('header.php') ?>
 
 
-    <section class="first-section" style="background-image: url(imagenes/php.jpg);">
-
-
+    <div class="container-fluid first-section" style="background-image: url(imagenes/php.jpg);">
 
         <div class="cards-container">
             <div class="card">
@@ -49,8 +47,8 @@
 
         </div>
 
-        
-    </section>
+    </div> 
+   
 
 
     <?php include('footer.php') ?>
