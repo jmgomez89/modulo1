@@ -9,6 +9,10 @@ nav {
     
 }
 
+.first-section {
+    height: 125vh;
+    padding: 10px;
+}
 .cards-container {
     display: flex;
     justify-content: space-around;
@@ -31,7 +35,7 @@ nav {
 .price {
     margin: 0.5em auto 0.5em auto ;
     width: 25em;
-    height: 10em;
+    height: 5em;
     border-radius: 25px;
     border: 1px crimson solid;
     -moz-box-shadow: 0px 0px 30px #DF0101; 
@@ -49,45 +53,17 @@ nav {
     text-align: center;
 }
 
-.promo-price {
-    margin-top: 25px;
-    text-align: center;
-}
-
-.promo-price a {
-    -moz-box-shadow: 0px 0px 30px #2ddf01; 
-    -webkit-box-shadow: 0px 0px 30px #33ff01; 
-    box-shadow: 0px 0px 30px #13df01;
-}
-
-.curso-container {
-    background-color: transparent;
-    width: 60%;
-    height: 60%;
-    margin: auto;
-    display: flex;
-    align-items: center;
-}
-
 .curso {
     background-color: beige;
-    width: 100%;
-    height: 30em;
+    margin: 0 auto;
+    width: 40%;
+    height: 80%;
     border: 2px gold solid;
     border-radius: 5px;
     padding: 10px;
 }
 
-.curso img {
-    width: 70%;
-    height: 55%;
-    display: block;
-    margin: 0 auto;
-}
-.curso p{
-    text-align: center;
-    font-weight: 600;
-}
+
 footer {
     height: 3em;
     width: 100%;
@@ -100,9 +76,23 @@ footer p {
     color: white;
 }
 
-.formulario-contacto {
+.formulario {
+    
+    width: 50%;
+    color: white;
+    margin: 20px auto 0 20px;
+    padding: 10px;
+}
+
+.boton {
+    width: 10rem;
+}
+
+.mensaje-img{
+    width: 35rem;
+    height: 15rem;
+    display: block;
     margin: 0 auto;
-    height: 100%;
 }
 
 @media (max-width: 1090px) {

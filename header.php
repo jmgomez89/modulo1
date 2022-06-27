@@ -28,6 +28,10 @@
 
         $total = $precioIni + $precioInter + $precioAvan;
         $totalDcto = $total - ($total * 30) / 100;
+
+        //formulario
+
+        $estado = 'block';
     ?>
 
   <nav class="navbar navbar-expand-lg ">

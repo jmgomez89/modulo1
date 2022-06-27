@@ -41,10 +41,6 @@
                 <a href="#" class="btn btn-danger">Precio Total: ARS <?php echo $total?></a>
             </div>
 
-            <div class="promo-price">
-                <a href="#" class="btn btn-success">Abonando en efectivo: ARS <?php echo $totalDcto ?></a>
-            </div>
-
         </div>
 
     </div> 
